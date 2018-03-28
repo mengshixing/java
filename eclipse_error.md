@@ -6,3 +6,7 @@
 2 centos环境下提示 no libsigar-x86-linux.so in java.library.path 错误
 
 下载请把libsigar-x86-linux.so文件一般来说放到/usr/lib64下即可
+
+3  ERROR net.sf.ehcache.Cache - Unable to set localhost. This prevents creation of a GUID. Cause was: liulan: liulan: 未知的名称或服务.java.net.UnknownHostException: liulan: liulan: 未知的名称或服务
+
+vi /etc/hosts 加到127.0.0.1 后面即可
